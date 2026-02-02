@@ -1,5 +1,6 @@
-""" A script that will analyze log files, and generate a report in either plain text, JSON, and XML. """
-"""
+
+A script that will analyze log files, and generate a report in either plain text, JSON, and XML. 
+
     Description
         - The script will read the 'server.log' file within the set path.
         It will search for terms like "Error","Warning" and "Info" within the .log file. 
@@ -26,4 +27,4 @@
         - Define a save_report function that will take the values and convert it in text with a plain text, JSON, and XML file into the output folder. 
 
 
-"""
+
